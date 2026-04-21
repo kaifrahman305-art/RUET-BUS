@@ -1,0 +1,53 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "ruet-bus",
+          "appId": "1:658439363868:android:b9ae987bf6abb576a36ed9",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "ruet-bus",
+          "configurations": {
+            "android": "1:658439363868:android:b9ae987bf6abb576a36ed9",
+            "ios": "1:658439363868:ios:93558e3f5356f654a36ed9",
+            "macos": "1:658439363868:ios:93558e3f5356f654a36ed9",
+            "web": "1:658439363868:web:5b13b414c723b879a36ed9",
+            "windows": "1:658439363868:web:43e13fde1eff1300a36ed9"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ],
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

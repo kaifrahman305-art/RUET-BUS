@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "658439363868",
+    "project_id": "ruet-bus",
+    "storage_bucket": "ruet-bus.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658439363868:android:b9ae987bf6abb576a36ed9",
+        "android_client_info": {
+          "package_name": "com.example.simple_bus_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgIF57F227ShLXQp5u7Wf4OrUrUYD3LA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
